@@ -5,13 +5,11 @@ using namespace std;
 string ft_cmp_str(string str, string str2, int n)
 {
     string news;
-    char a = '1';
-    for(int i = 0; i < n; i++)
+    for(int i = 0; i < n-1; i++)
         news += str[i];
     news += str2;
-    for(int i = n; a != '\0'; i++)
+    for(int i = n-1; str[i] != '\0'; i++)
     {
-        a = str[i];
         news += str[i];
     }
     return news;

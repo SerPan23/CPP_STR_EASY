@@ -8,7 +8,12 @@ string ft_first_end_three(string str)
     string otv;
     if (len > 5){
         //cout << str[0] << str[1] << str[2] << str[len-3] << str[len-2] << str[len-1];
-        otv += str[0] + str[1] + str[2] + str[len-3] + str[len-2] + str[len-1];
+        otv += str[0];
+        otv += str[1];
+        otv += str[2];
+        otv += str[len-3];
+        otv += str[len-2];
+        otv += str[len-1];
     }
     else
     {
