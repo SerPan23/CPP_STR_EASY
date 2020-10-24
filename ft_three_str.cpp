@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 #include "new_str.h"
 using namespace std;
 string ft_three_str(string str, string str2, string str3)
@@ -25,15 +24,3 @@ string ft_three_str(string str, string str2, string str3)
     }
     return str;
 }
-
-
-/*int main(){
-    string str;
-    getline(cin, str);
-    string str2;
-    getline(cin, str2);
-    string str3;
-    getline(cin, str3);
-    cout << ft_three_str(str, str2, str3);
-    return 0;
-}*/

@@ -13,5 +13,6 @@ double ft_percent_lower_uppercase(string str)
         else if (a >= 'a' && a <= 'z')
             kolp += 1.0;
     }
+    cout << kols << " " << kolp << endl;
     return (kols/kolp)*100;
 }
